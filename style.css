@@ -370,6 +370,7 @@ section > .header > h2 {
 #our-working-process .processes .process-card .header svg {
   width: 58px;
   height: 58px;
+  cursor: pointer;
 }
 
 div.txt {
@@ -377,6 +378,10 @@ div.txt {
     flex-direction: row;
     align-items: center;
     gap: 30px;
+}
+
+div.hidden {
+    display: none;
 }
 
 hr {
