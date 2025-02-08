@@ -19,9 +19,7 @@ main {
 }
 
 .navbar {
-  padding-top: 60px;
-  padding-left: 60px;
-  padding-right: 60px;
+  padding: 60px 60px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -101,9 +99,9 @@ section:not(:last-child) {
     padding-left: 30px;
     padding-right: 30px;
   }
-  /* .navbar {
-    display: none;
-  } */
+  .navbar, .nav-list {
+    flex-direction: column;
+  }
 
   .hero-wrapper {
     flex-direction: column-reverse;
