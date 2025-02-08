@@ -101,9 +101,9 @@ section:not(:last-child) {
     padding-left: 30px;
     padding-right: 30px;
   }
-  .navbar {
+  /* .navbar {
     display: none;
-  }
+  } */
 
   .hero-wrapper {
     flex-direction: column-reverse;
@@ -179,7 +179,7 @@ section > .header > h2 {
 }
 
 #services .boxes .box {
-  padding: 40px 40px;
+  padding: 40px 30px;
   border-radius: 40px;
   flex: 1 1 calc(50% - 40px); /* Each box takes half the width, minus the gap */
   max-width: calc(50% - 40px); /* Prevents it from growing too large */
@@ -220,9 +220,14 @@ section > .header > h2 {
 }
 
 #services .boxes .box .box-text svg {
-  width: 20px;
-  height: 20px;
-  margin-right: 20px;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+div.learn-more {
+ display: flex;
+ align-items: center;
 }
 
 @media screen and (max-width: 758px) {
