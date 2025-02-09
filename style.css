@@ -25,8 +25,8 @@ main {
 }
 
 .navbar.bg-grey {
-  background-color: #F3F3F3;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background-color: #f3f3f3;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s ease, position 0.3s ease;
 }
 
@@ -130,7 +130,7 @@ section:not(:last-child) {
   .nav-list {
     flex-direction: column;
   }
-  
+
   .nav-list {
     display: none;
   }
@@ -402,8 +402,15 @@ div.learn-more {
   padding: 40px;
   border-radius: 40px;
   width: 100%;
+  max-width: 100%;
   border: 1px solid black;
   box-shadow: 0px 4px 0px 0px black;
+}
+
+@media (max-width: 400px) {
+  #our-working-process .processes .process-card {
+    padding: 40px 20px;
+  }
 }
 
 #our-working-process .processes .process-card .header {
@@ -422,7 +429,8 @@ div.txt {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 30px;
+  gap: 20px;
+  /* text-wrap: wrap; */
 }
 
 div.hidden {
@@ -444,7 +452,7 @@ hr {
 
 #our-working-process .processes .process-card .header .title {
   font-size: 25px;
-  font-size: 500;
+  font-weight: 500;
 }
 
 .members {
