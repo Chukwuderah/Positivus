@@ -509,6 +509,10 @@ hr {
     text-align: center;
   }
 
+  .team-member .title-box {
+    gap: 10px;
+  }
+
   .team-member .title-box .team-img {
     width: 70px;
     height: 70px;
