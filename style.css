@@ -542,6 +542,7 @@ hr {
 #contact-us .content form div.radio-buttons .radio {
   display: flex;
   align-items: center;
+  text-wrap: nowrap;
   gap: 10px;
 }
 
