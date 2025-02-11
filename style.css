@@ -385,7 +385,8 @@ div.learn-more {
 @media (max-width: 1024px) {
   #case-studies .content {
     grid-template-columns: 1fr;
-  }
+    padding: 20px;
+}
   #case-studies .content > *:not(:last-child) {
     border-right: none;
     border-bottom: 1px solid white;
