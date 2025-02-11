@@ -406,12 +406,6 @@ div.learn-more {
   box-shadow: 0px 4px 0px 0px black;
 }
 
-@media (max-width: 400px) {
-  #our-working-process .processes .process-card {
-    padding: 40px 20px;
-  }
-}
-
 #our-working-process .processes .process-card .header {
   display: flex;
   align-items: center;
@@ -453,6 +447,20 @@ hr {
   font-size: 25px;
   font-weight: 500;
 }
+
+@media (max-width: 768px) {
+    #our-working-process .processes .process-card {
+      padding: 40px 20px;
+    }
+
+    #our-working-process .processes .process-card .header .number {
+        font-size: 20px;
+    }
+    #our-working-process .processes .process-card .header .title {
+        font-size: 18px;
+    }
+    }
+  
 
 .members {
   display: flex;
