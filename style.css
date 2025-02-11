@@ -277,6 +277,7 @@ div.learn-more {
   #services .boxes .box {
     flex: 1;
     justify-content: space-between;
+    align-self: self-end;
     gap: 30px;
     width: 100%;
     max-width: 100%;
@@ -298,10 +299,6 @@ div.learn-more {
     font-weight: 500;
     text-wrap: nowrap;
   }
-
-  /* #services .boxes .box {
-    align-self: self-end;
-  } */
 
   #services .boxes .box .box-image {
     width: fit-content;
