@@ -537,6 +537,12 @@ hr {
   gap: 40px;
 }
 
+@media (max-width: 768px) {
+    #contact-us .content form div.radio-buttons {
+        gap: 17px;
+    }
+}
+
 #contact-us .content form div.radio-buttons .radio {
   display: flex;
   align-items: center;
