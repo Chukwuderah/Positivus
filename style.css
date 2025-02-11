@@ -508,6 +508,15 @@ hr {
     width: 100%;
     text-align: center;
   }
+
+  .team-member .title-box .team-img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .img_dev {
+    max-height: fit-content;
+  }
 }
 
 #contact-us .content {
