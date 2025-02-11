@@ -250,3 +250,6 @@ processCards.forEach((card) => {
   // Add transition effect
   card.style.transition = "background-color 0.3s ease";
 });
+
+const year = new Date().getFullYear();
+document.querySelector("#year").textContent = year;

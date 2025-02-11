@@ -166,7 +166,6 @@ section:not(:last-child) {
 
   .hero-text .btn {
     margin: 0 auto;
-    width: 50%;
   }
 
   .logo-banner {
@@ -385,7 +384,7 @@ div.learn-more {
   #case-studies .content {
     grid-template-columns: 1fr;
     padding: 20px;
-}
+  }
   #case-studies .content > *:not(:last-child) {
     border-right: none;
     border-bottom: 1px solid white;
@@ -451,18 +450,17 @@ hr {
 }
 
 @media (max-width: 768px) {
-    #our-working-process .processes .process-card {
-      padding: 40px 20px;
-    }
+  #our-working-process .processes .process-card {
+    padding: 40px 20px;
+  }
 
-    #our-working-process .processes .process-card .header .number {
-        font-size: 20px;
-    }
-    #our-working-process .processes .process-card .header .title {
-        font-size: 18px;
-    }
-    }
-  
+  #our-working-process .processes .process-card .header .number {
+    font-size: 20px;
+  }
+  #our-working-process .processes .process-card .header .title {
+    font-size: 18px;
+  }
+}
 
 .members {
   display: flex;
@@ -602,6 +600,7 @@ hr {
     width: 100%;
   }
 }
+
 footer {
   padding-top: 60px;
   padding-left: 60px;
@@ -733,5 +732,13 @@ hr {
 
   .subscribe-news > * {
     width: 100%;
+  }
+}
+
+@media (max-width: 505px) {
+  .footer-text {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 10px;
   }
 }
