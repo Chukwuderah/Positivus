@@ -755,9 +755,22 @@ hr {
 }
 
 @media (max-width: 505px) {
+div.logo img:not(.hamburger) {
+  width: 150px;
+  object-fit: contain;
+}
+
+  #contact-us .content {
+    padding: 30px 18px;
+  }
+
   .footer-text {
     flex-direction: column-reverse;
     align-items: center;
     gap: 10px;
+  }
+
+  .footer-text p {
+    font-size: .8rem;
   }
 }
